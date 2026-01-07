@@ -1,13 +1,17 @@
 # ztrust/pgp
 
-This is the ztrust/pgp folder
-with various PGP keys of members of the z/VM and z/Linux community.
+This is the ztrust/pgp folder with various PGP keys of members
+of the z/OS and z/VM and z/Linux communities.
 
 ## Signing
 
 PGP keys found here contain signatures which may extend into the larger
 Web of Trust. In any case, signatures on these keys serve to assure
 their ownership and veracity.
+
+Cross-signed PGP keys inherently extend trust for themselves.
+One purpose of this collection is to also sign PKI root certificates
+found in the ztrust/pki folder.
 
 ## Naming
 

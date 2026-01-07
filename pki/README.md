@@ -1,7 +1,7 @@
 # ztrust/pki
 
-This is the ztrust/pki folder
-containing root PKI certificates of z/VM and z/Linux vendors and users.
+This is the ztrust/pki folder containing root PKI certificates
+of z/OS and z/VM and z/Linux vendors and users.
 
 ## Signing
 
