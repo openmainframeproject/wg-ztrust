@@ -1,41 +1,37 @@
-_This document is intended to be a template for working groups
- established by the TAC, to be used as the README.md file in its repository.
- All items in italics are descriptions of what context should be there;
- it is intended to be replaced by content. It is modeled off the
- [CNCF Serverless WG](https://github.com/cncf/wg-serverless)._
+# ZTRUST Working Group
 
-_The intention is that each WG has its own GitHub repo under the
- [Open Mainframe Project organization](https://github.com/openmainframeproject)._
+The ZTRUST working group exists to educate and inform members of
+the Z (mainframe) community about cryptographic trust issues,
+starting with code signing.
 
-# _Working group name_
+The working group also exists to provide a "trust anchor"
+which can be used for verifying delivered code ("artifacts")
+and related content.
 
-_Describe the purpose of the group in no more that 4-5 sentences._
+## Goals
 
-_Goals are the distinct outcomes that is to be anticipated from
- the working group, serving as a method for validating activities._
+1. Education/Information
 
-Goals of the WG are:
+As of this writing, many members of the Z community remain unfamiliar
+with trust anchors, cryptographic signing, PKI and PGP, and related
+topics. This working group will fill the gaps.
 
-1. _goal 1_
-2. ...
+2. Trust Anchor
 
-_Non-goals are things that the working group are intentionally
- choosing not to do, the things not expected to change due to
- the working groups efforts, or the subject matter areas that
- the working groups doesn’t want to address at this time. _
+While many trust anchors, trust paths, and trust chains already exist,
+it seemed helpful to establish a community trust anchor for those
+software deliverables and related services which fall outside of
+established and commercial trust space.
 
-Non-goals of the WG are:
-
-1. _non goal 1_
-2. ...
-
-The TAC member sponsor of this working group is _TAC sponsor name_
+<!-- The TAC member sponsor of this working group is _TAC sponsor name_ -->
 
 ## Deliverables
 
-_provide a list of planned deliverables, or links to the deliverables.
- A best practice is to have a directory named [deliverables](deliverables)
- in the repo for hosting and managing deliverables._
+1. documentation
+
+2. PKI root certificates
+
+3. PGP public keys
 
 ## Communication
 
@@ -61,3 +57,5 @@ _list if applicable, or skip if not_
 
 Meeting notes, recordings, and any presentations made during WG meetings
  are available [here](meetings).
+
+

@@ -25,4 +25,8 @@ but also allows them to be sorted by long form key ID.
 Most keys here have a file type extension of `.asc`
 indicating that they are ASCII-armored.
 
+Important note: use the key ID (long hexadecimal form)
+to refer to PGP keys because the email address is often imprecise.
+A given email address can appear on *many* PGP keys.
+
 
