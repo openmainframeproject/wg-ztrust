@@ -37,25 +37,22 @@ established and commercial trust space.
 
 This WG communicates on the following channels:
 
-- _link to mailing list_
-- _slack channel_
-- _any other channels_
-...
+- _no mailing list_
+- _no slack channel_
+- _presently all person-to-person email_
 
 ## Meetings
 
-See the [Open Mainframe Project public calendar](https://calendar.openmainframeproject.org).
- This WG meets _meeting day/time and frequency_. 
+This WG will first meet Monday, 2026 February 9, 10AM til 11AM. 
+The meeting will be hosted by Google Meet.
 
-_provide the Zoom/conference call details_
+https://meet.google.com/tov-zabt-csr
 
-## In-person meetings
-
-_list if applicable, or skip if not_
+Also see the [Open Mainframe Project public calendar](https://calendar.openmainframeproject.org).
 
 ## Meeting notes
 
 Meeting notes, recordings, and any presentations made during WG meetings
- are available [here](meetings).
+are available [here](meetings).
 
 
