@@ -1,0 +1,20 @@
+
+Q: What are we doing?
+A: Providing provenance
+
+collection of PKI certs
+collection of PGP keys
+cross-signed PGP keys
+PKI certs signed with PGP keys
+
+purpose of the workgroup
+scope and goals and audience
+technology used
+> circulate that
+
+do we need a TAC sponsor? (John Mertic? Tom Slanda?)
+
+Dan Kelosky sent email with contact info for Mark Ackert.
+Matt Hogstrom provided contact info for M Fulton.
+
+
