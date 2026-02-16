@@ -1,0 +1,32 @@
+ZTRUST Working Group                                          2026-02-16
+
+attendees:
+* Brian Hugenbruch
+* Jim Moling (AI)
+* Mike MacIsaac
+* Berry van Sleeuwen
+* Rick Troth
+
+FYSA the URL to the repository is ...
+
+    https://github.com/openmainframeproject/wg-ztrust/
+
+We reviewed two of the initial documents, first "How-To.md".
+Mike M and Brian H followed the steps in that document to create
+their PGP keys. Rick recognized their faces and confirmed cryptographic
+"fingerprints" of those public keys, will sign and upload.
+
+The other doc reviewed was "Questions-Answers.md"
+to which we added two more questions which will shortly have answers.
+
+Jim Moling was not able to join in person, but sent an AI note-taker.
+
+Mike Fulton could not attend but asked for a recording.
+Jim's note-taker may have a partial recording. For reasons unknown,
+Google Meet did not let us record this session.
+
+Summary: two new PGP keys added
+* 0xc13ee771c386afac-mike99mac@gmail.com-public.asc
+* 0x93a4a4d927b40dfc-bwhugen@us.ibm.com-public.asc
+
+

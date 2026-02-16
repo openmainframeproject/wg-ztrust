@@ -2,7 +2,7 @@
 
 Here are some common questions and some hopefully helpful answers.
 
-* Q: 
+* Q:
 Should customers be getting signed artifacts only?
 
 * A:
@@ -19,5 +19,14 @@ must be trustworthy. Signed software extends the chain of trust
 from the vendor to the user/consumer. Code signing is an increasingly
 important means of conveying trust. In absence of a signature,
 the software *must* come by way of a trustworthy channel.
+
+ * Q:
+ What should I do with this PGP public key that I have generated?
+
+ * Q:
+ What is the "fingerprint" of a PGP key and what is it used for?
+
+* Q:
+How do we "manage" keys?
 
 

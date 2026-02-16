@@ -28,5 +28,9 @@ the public half of the pair, so called (public) because it is intended
 to be distributed.
 
 The `.asc` suffix on the filename indicates that it is "ASCII armored".
+This "armored" file can (should) be emailed to others. It can (should)
+also be uploaded to the ztrust WG repository.
+
+As soon as possible, you will want your PGP key to be signed by others in the community.
 
 

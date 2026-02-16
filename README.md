@@ -33,6 +33,9 @@ established and commercial trust space.
 
 3. PGP public keys
 
+One of the first questions people ask is, "How do I create a PGP key pair?".
+For that, see the [How-To](How-To.md) guide.
+
 ## Communication
 
 This WG communicates on the following channels:
