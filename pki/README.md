@@ -10,7 +10,7 @@ Root certificates are by nature self-signed. Their veracity is indicated
 by their presence in the trust store distributed with 
 
 PKI root certificates found here *may* be signed by PGP keys
-(found in the companion "pgp" folder) as detached signatures.
+(found in the companion "pgp" folder) as *detached* signatures.
 A "detached" signature does not change the content of the signed file,
 so detached PGP signing does not harm the certificates.
 
@@ -26,8 +26,7 @@ indicating that they are ASCII-armored. The full extension is `.crt.asc`.
 
 ## Rationale
 
-The following observation is from Dan Rathbun, CIO/CISO for
-several enterprises:
+The following observation is from Dan Rathbun, CIO/CISO:
 
 *"One of the inherent problems of standard HTTPS is that trust put in
 a website is defined by certificate authorities: a hierarchical and
@@ -36,6 +35,6 @@ web browser vendor. This model of trust has long been criticized
 and proven ... to be vulnerable to attacks ..."*
 
 This trust anchor is intended to remedy that problem
-in the context of the mainframe community.
+in the context of the System Z mainframe community.
 
 
