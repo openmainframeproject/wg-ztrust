@@ -8,6 +8,10 @@ The working group also exists to provide a "trust anchor" for the
 System Z community which can be used for verifying delivered code
 ("artifacts") and related content.
 
+One of the first questions people ask is, "How do I create a PGP key pair?".
+<br/>
+For that, see the [How-To](How-To.md) guide.
+
 ## Goals
 
 1. Education/Information
@@ -32,9 +36,6 @@ established and commercial trust space.
 2. PKI root certificates
 
 3. PGP public keys
-
-One of the first questions people ask is, "How do I create a PGP key pair?".
-For that, see the [How-To](How-To.md) guide.
 
 ## Communication
 

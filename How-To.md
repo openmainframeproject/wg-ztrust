@@ -23,14 +23,18 @@ operation will provide your public key in a sharable form.
     gpg --armor --export > mykey.asc
 
 The `--armor` flag says to "ASCII armor" the key (which is otherwise
-binary gibberish). When you `--export` your key, it's talking about
+binary gibberish). <br/> When you `--export` your key, it's talking about
 the public half of the pair, so called (public) because it is intended
-to be distributed.
+to be distributed publicly.
 
 The `.asc` suffix on the filename indicates that it is "ASCII armored".
 This "armored" file can (should) be emailed to others. It can (should)
 also be uploaded to the ztrust WG repository.
 
-As soon as possible, you will want your PGP key to be signed by others in the community.
+You should email your armored public key to one or more other community
+members asking them to "sign your key". (Be patient with the requirements
+for authenticating your key to these others.) These people will return
+your key, now having their signature(s), and you should "import" your
+now-signed public key.
 
 

@@ -1,0 +1,35 @@
+ZTRUST Working Group                                          2026-03-02
+
+attendees:
+* Berry van Sleeuwen
+* Mike MacIsaac
+* Rick Troth
+
+Tom Slanda will be establishing an email distribution list for the
+working group. The word is out: who is willing to be included?
+
+At the SHARE conference last week, Matt Hogstrom tried (without success)
+to engage interested parties. It is likely that many people still see
+PGP as an email concept. We need to explain that this is about trust.
+
+For future SHARE attendance, this may help ...
+
+https://github.com/openmainframeproject/wg-ztrust/blob/main/doc/SHARE.md
+
+While investigating Sigstore, I (Troth) found that the service has
+a number of base or root signatories (actual human beings). The keys
+of these individuals are available from Sigstore (as they should be)
+and appear to be in an SSH-like format. (But SSH is not usually
+related to code signing.) I am trying to find out if there is a real
+correlation between Sigstore and SSH or if I have simply misunderstood.
+Either way, we should have some documentation of Sigstore as it
+relates to code signing in the Z world.
+
+Mike MacIsaac offered updates to a couple of the markdown documents
+in the GitHub repository. I (Troth) have applied those changes.
+
+There are a number of people who have participated in "key signing
+parties" (e.g., at VM Workshop or other conferences). I (Troth) have
+contacts those existing PGP key holders to solicit their involvement.
+
+
