@@ -1,0 +1,61 @@
+ZTRUST Working Group                                          2026-03-09
+
+attendees I:
+* Berry van Sleeuwen
+* Mike MacIsaac
+
+attendees II:
+* Matt Hogstrom
+* Rick Troth
+
+Rick Troth has been leading these meetings and stood-up the group.
+Apologies!
+
+So this week's meeting was in two parts.
+
+## part I
+
+Michael MacIsaac and Berry van Sleeuwen discussed the recent time change,
+US Eastern and Central time zones, European choosing different summer
+and winter time zones, cultural and business issues. (Small talk, but
+does relate to system operations, and even certificate lifetimes.)
+They conclude that Rick might not join the meeting.
+Did he oversleep due to the clock change?
+
+## part II
+
+Rick joined the meeting about 20 minutes after the hour. <br/>
+Matt joined about five minutes after that.
+
+It has been several weeks since Matt was able to join the meeting
+so he and Rick did some catch-up.
+
+Matt discussed (again) the (lack of) response at SHARE.
+Rick speculates (again) that many potential participants
+too often associate PGP exclusively with email.
+
+Mark Ackert requested that Matt sign his PGP key. (good!)
+
+The point of the ZTRUST project and working group is provenance.
+Matt observed that this need is becoming urgent.
+
+Matt observed that OMP offers no overall guidance.
+Rick suggested that we engage with Tom Slanda and/or John Mertic.
+
+Matt mentioned the "Veritasium" YouTube channel as a
+(cultural) source for discussion about facts.
+
+Rick and Matt both thought the group should contact Lionel Dyck
+for a deeper conversation about the CBT tape and signing of artifacts.
+
+Matt mentioned that Chrome (Google) will soon reject EKU certificates
+(extended key usage). Given the existing acceptence, a change like this
+will introduce some breakage.
+
+Matt mentioned that many organizations have a firm (and firmer)
+PQC fixation (post-quantum cryptography).
+
+Matt reviewed Apache Software Foundation code signing policy.
+It remains primarily PGP-based.
+
+
