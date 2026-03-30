@@ -1,0 +1,37 @@
+ZTRUST Working Group                                          2026-03-30
+
+attendees:
+* Berry van Sleeuwen
+* Rick Troth
+
+Troth was late again (and has set multiple reminders for next week!)
+Brian and Mike were on early but left when the leader failed to show.
+Matt was unavailable for work reasons.
+Berry lingered long enough, and helped as follows:
+
+## PGP for VM/CMS
+
+Berry had previously found evidence of PGP on the BMC z/VM systems.
+But he did not find PGP MODULE. He then found PGP VMARC on the archived
+Fran Hensler page at the VM Workshop web site. Rick pulled down that
+VMARC and cracked it open. Sure enough, there was a PGP module dated
+1996-10-30. Sadly, it failed with the following error message:
+
+    DMSLIO201W The following names are undefined:
+    IBMBLIIA
+
+The package also includes a README which is signed:
+
+    Konstantin Berdichevsky
+    KB@MITVMA.MIT.EDU
+
+## CPHOST
+
+Rick and Berry also discussed a loadable module variously called
+CPHOST or CP1STLVL. This is a tool for issuing CP commands to the host
+or "first level" z/VM system from a guest or "second level" z/VM system.
+It is significant in ZTRUST because CPHOST TEXT or CPHOST TXTLIB
+will need cryptographic signature in future z/VM systems in order for
+'CPXLOAD' to pass muster when secure boot is in effect.
+
+
