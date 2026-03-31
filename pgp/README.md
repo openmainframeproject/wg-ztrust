@@ -43,6 +43,6 @@ either file signing (code or certs) or for key signing (extend the web
 of trust).
 
 `-email` may be used for public keys which are intended primarily for
-email (either signing of email or encrypting of email).
+encrypting email (either signing of email or encrypting of email).
 
 

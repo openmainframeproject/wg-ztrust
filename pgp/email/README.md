@@ -8,7 +8,7 @@ The recommended filename format is ...
 keyid `-` identity `-email.asc`
 
 The keyid should be the long form, 16 hex digits prepended with `0x`.
-									.
+
 All keys in this project are public. The `-email.asc` suffix makes clear
 that these keys are intended for encrypting email to the named recipient
 (and that they are in armored format).

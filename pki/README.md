@@ -5,20 +5,23 @@ of z/OS and z/VM and z/Linux vendors and users.
 
 ## Signing
 
-Root certificates are not signed by another party or key or certificate.
-Root certificates are by nature self-signed. Their veracity is indicated
-by their presence in the trust store distributed with 
+Root certificates are not signed (in PKI terms) or "issued" by another
+party or key or certificate. Root certificates are by nature self-signed.
+Their veracity is indicated by their presence in the trust store
+distributed with the operating system or other major software package.
 
 PKI root certificates found here *may* be signed by PGP keys
 (found in the companion "pgp" folder) as *detached* signatures.
 A "detached" signature does not change the content of the signed file,
-so detached PGP signing does not harm the certificates.
+so detached PGP signing does not harm the certificates. It is safe.
 
 ## Naming
 
 PEM-encoded certificates have a file type extension of `.crt`.
 
-Human readable "text" form have a file type extension of `.txt`.
+DER-encoded certificates (that is, binary) are not recommended here.
+
+Human readable "text" form certs have a file type extension of `.txt`.
 The PEM-encoded certificate will be found at the end of such a file.
 
 Detached PGP signatures have a file type extension of `.asc`
