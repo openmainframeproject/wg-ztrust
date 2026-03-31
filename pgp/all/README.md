@@ -2,7 +2,10 @@ This folder holds all PGP keys in the collection in "armored" format.
 The collection includes keys used for signing (the primary purpose of
 the working group and project) but also for encrypting email.
 
-The recommended filename format is ...
+The file `pgp-bundle.asc` one level up from here is a concatenation
+of all of these `.asc` armored files.
+
+The recommended filename format here is ...
 
 keyid `-` identity `-public.asc`
 
