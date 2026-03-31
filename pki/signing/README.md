@@ -1,6 +1,7 @@
 This folder holds PKI root certificates specifically for signing use.
 Intermediate PKI certs which chain-up to root certs need not be here
 or may be here for facilitating intermediate certification deployment.
+Leaf certificates *should not* be here.
 
 PKI certificates found here should be detach signed by PGP keys.
 

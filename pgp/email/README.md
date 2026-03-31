@@ -13,4 +13,7 @@ All keys in this project are public. The `-email.asc` suffix makes clear
 that these keys are intended for encrypting email to the named recipient
 (and that they are in armored format).
 
+The "identity" might not be a working email address
+but should be for keys represented here.
+
 

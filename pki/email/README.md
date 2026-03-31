@@ -1,7 +1,7 @@
 This folder holds PKI root certificates specifically for email use.
 Intermediate PKI certs for email which chain-up to root certs need not
 be here or may be here for facilitating intermediate certification
-deployment.
+deployment. Leaf certificates *should not* be here.
 
 PKI certificates found here should be detach signed by PGP keys.
 

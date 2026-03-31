@@ -1,6 +1,9 @@
 This folder holds all PKI root certificates in the ZTRUST collection
 in armored or PEM-encoded format.
 
+The file `pki-bundle.pem` one level up from here is a concatenation
+of all of these PEM files.
+
 The collection includes root certificates which chain to leaf certs
 of any kind, including web servers and email encryption, but especially
 for code signing.
