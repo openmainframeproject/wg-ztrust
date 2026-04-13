@@ -84,3 +84,24 @@ It may be vulnerable to the signature flooding attack,
 with similar characteristics to that of the Dutch key server.
 
 
+..............................
+
+    https://pgp-servers.net/
+    https://keys.openpgp.org/
+    https://pgp.surf.nl/
+    https://keyserver.ubuntu.com/
+
+peer0    pgp.govcert.etat.lu:11371       pgp.govcert.etat.lu
+peer1    pgpkeys.eu:11371        pgpkeys.eu
+peer2    pgp.cyberbits.eu:11371  pgp.cyberbits.eu
+peer3    fr.pgpkeys.eu:11371     fr.pgpkeys.eu
+peer4    fi.pgpkeys.eu:11371     fi.pgpkeys.eu
+peer5    de.pgpkeys.eu:11371     de.pgpkeys.eu
+
+
+
+One of the first public PGP key servers was hosted at
+[MIT](https://web.mit.edu/)
+but it seems to have fallen into disrepair.
+
+
