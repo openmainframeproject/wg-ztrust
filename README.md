@@ -116,3 +116,10 @@ There are cases where a CA is not available or where an in-house
 or home-grown CA is preferred. Root certificates found here are
 of that sort. When they are signed using PGP, consumers have assurance
 which they would not otherwise have.
+
+## License
+
+Content in this repository that is eligible for copyright is released under the
+terms in our [License](LICENSE.md) file.
+
+
