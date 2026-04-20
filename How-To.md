@@ -37,4 +37,8 @@ for authenticating your key to these others.) These people will return
 your key, now having their signature(s), and you should "import" your
 now-signed public key.
 
+Note: You can delete keys from your keyrings, including deleting
+private/secret keys. Recommend that you NOT delete a secret/private
+key without first generating a revokation certificate.
+
 
