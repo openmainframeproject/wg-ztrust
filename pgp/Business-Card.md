@@ -1,18 +1,24 @@
 # A PGP Business Card
 
+The purpose of exchanging and cross-signing PGP keys is to confirm
+ownership of the keys. PGP keys are used for cryptographic signing of
+code and other computer files as well as for delivering private email.
+
 Consider carrying a business card or similar printed media
 with your PGP key fingerprint. When you encounter PGP users
 at conferences (or in any public venue), give them your card.
+This is sometimes called an "opportunistic key exchange"
+and is less tedious than a formal "key signing party".
+In-person exchange of key fingerprints is the most secure way
+to confirm true ownership.
 
 It is NOT discourteous to also present government-issued
 or similarly strong formal identity, even if you and the other person
 know each other well. Don't be afraid to ask to see their driver's license.
 
-Your "card" should perhaps *not* have your public key itself
-so that the recipient will be required to use more than one channel.
-
 Remember that PGP is not just for email, but also for
 cryptographically signing files or any similar electronic media.
+Cross-signed PGP keys are signifantly more trustworty than unsigned.
 
 ## Anything on Paper
 
@@ -24,18 +30,35 @@ even than removable electronic media that you have aggressively kept safe.
 Have multiple copies of your fingerprint media so that you can *give*
 the paper or card to the other person.
 
+## The "Card"
+
+Your "card" should perhaps *not* have your public key itself
+so that the recipient will be required to use more than one channel.
+It could be an actual business card in the traditional sense or even
+just a slip of paper. It should *not* be an electronic business card
+because electronic delivery can be intercepted or compromised.
+
+Consider making a QR code of your PGP key fingerprint.
+(Not of the key itself.) That may facilitate reading the fingerprint
+for some recipients, and yet it retains the tamper-evident attribute.
+
 ## Also on the Network
 
 The whole point of a public key is ... well ... that it be distributed
-`publicly`. There *are* privacy concerns, so you might not want to upload
+*publicly*. There *are* privacy concerns, so you might not want to upload
 your public key to the key servers, but you *should* make it available
 electronically. This provides a secondary channel for people with whom
-you share your key to acquire and verify it.
+you share your key to acquire and verify it. You can also email your
+public key to peers; they can confirm your key with the fingerprint.
 
-You might consider putting your publig PGP key on a web site that you
+You might consider putting your public PGP key on a web site that you
 control. If privacy is an issue, such a web site or page should be away
 from the prying eyes of the robots. The nature of public key cryptography
 means that you are *not* at risk of someone hijacking your *private* key.
+You might want to put your public key on social media.
+
+This does not mean that you should upload the public keys of others.
+Don't. Leave the uploading of public keys to the owners of those keys.
 
 ## Accepting Their Key
 
@@ -48,7 +71,8 @@ PGP public key matches the fingerprint that you received in person.
 It is best if you can retrieve the other person's public key via some
 channel other than the business card. (Hopefully they will have published
 there key somewhere that you can get it, much like *you* are urged to do
-in previous paragraphs.)
+in previous paragraphs.) Email is a good choice for this "other channel"
+given that you obtained the fingerprint in person (and on paper).
 
 Using GPGv2, you will need to `--import` the other person's public key
 before you can display the `--fingerprint`. This is normal. If the fingerprint
@@ -65,17 +89,25 @@ others using their public key will see your signature and have that much
 more assurance of their key's veracity.
 
 The more signatures on your public key (or on theirs), the stronger grows
-the web of trust.
+the web of trust. This is true for you and for the person with whom
+you exchange fingerprints.
 
 If you are confident about the fingerprint hand-off, use the
 `--default-cert-level 3` option when signing, providing stronger assurance
 to other consumers of the trust web.
+
+Email the signed key to the owner, but do not upload keys of others
+to the publicly-facing key servers.
 
 ## Commands to Issue
 
 To display your public key fingerprint for printing:
 
     gpg --fingerprint your-key-ID
+
+The fingerprint itself is simply a hash of the key material,
+but is sufficiently unique for strong assurance of trustworthiness,
+much stronger than the 16-hex-digit "key ID" used for convenience.
 
 To share your public key:
 
