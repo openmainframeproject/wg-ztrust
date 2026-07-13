@@ -3,6 +3,26 @@
 This is the ztrust/pki folder containing root PKI certificates
 of z/OS and z/VM and z/Linux vendors and users.
 
+## Certificates
+
+The mere mention of PKI Certificates carries baggage for many people.
+This project attempts to provide a "trust anchor" for the Z community
+but also to provide information, explanation, documentation,
+and simplification of the topics.
+
+PKI is an acronym for "Public Key Infrastructure".
+So-called public key cryptography in turn is used not only for
+PKI certificates but also for such services as PGP and SSH
+as well as countless security tools.
+
+An excellent introduction was presented by Charles Mills
+and was recorded and made available online.
+
+https://www.newera.com/INFO/Certificates_2021.mp4
+
+This folder contains a number of "root certificates" which you can use
+to verify "leaf certificates" particularly in the Z community.
+
 ## Signing
 
 Root certificates are not signed (in PKI terms) or "issued" by another
