@@ -25,15 +25,18 @@ to verify "leaf certificates" particularly in the Z community.
 
 ## Signing
 
-Root certificates are not signed (in PKI terms) or "issued" by another
-party or key or certificate. Root certificates are by nature self-signed.
-Their veracity is indicated by their presence in the trust store
-distributed with the operating system or other major software package.
+Root certificates are not "issued" by another certificate.
+Root certificates are self-signed. Other certificates being self-signed,
+such as a self-signed server certificate, is generally not good practice.
+The veracity of a root certificate is indicated by its presence in the
+trust store distributed with the operating system or package.
 
 PKI root certificates found here *may* be signed by PGP keys
 (found in the companion "pgp" folder) as *detached* signatures.
 A "detached" signature does not change the content of the signed file,
 so detached PGP signing does not harm the certificates. It is safe.
+A PGP signature on a PKI root certificate is an alternative affirmation
+of the veracity of that root certificate.
 
 ## Naming
 

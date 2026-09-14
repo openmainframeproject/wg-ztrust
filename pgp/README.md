@@ -22,8 +22,12 @@ An example naming convention is ...
 This makes them easy to find based on email address
 but also allows them to be sorted by long form key ID.
 
+"public" may alternatively be "signing" or "email" to indicate
+a specific purpose, but the key here is the *public* half of the pair.
+(see below)
+
 Most keys here have a file type extension of `.asc`
-indicating that they are ASCII-armored.
+indicating that they are ASCII-armored, textually portable.
 
 **Important note:** use the key ID (long hexadecimal form)
 to refer to PGP keys because the email address is often imprecise.
