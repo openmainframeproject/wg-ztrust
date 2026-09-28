@@ -19,6 +19,7 @@ See the bottom for example usage and how to verify code signing.
     0x04c367c218add4ff                                              python-2.7.17
     0x04c367c218add4ff                                              python-2.7.18
     0x0664a76954265e8c-simon@yubico.com-signing.asc                 oathtool-2.6.2
+    0x08302db6a2670428-tim.ruehsen@gmx.de-signing.asc               libpsl-0.23.3
     0x0adee10094604d37-mthl@gnu.org-signing.asc                     automake-1.16
     0x0adee10094604d37-mthl@gnu.org-signing.asc                     automake-1.16.1
     0x0d28d4d2a0ace884                                              nano-4.9.2
@@ -115,6 +116,7 @@ See the bottom for example usage and how to verify code signing.
     0x5cc908fdb71e12c2-daniel@haxx.se-signing.asc                   curl-7.81.0
     0x5cc908fdb71e12c2-daniel@haxx.se-signing.asc                   curl-7.88.1
     0x5cc908fdb71e12c2-daniel@haxx.se-signing.asc                   curl-8.2.0
+    0x5cc908fdb71e12c2-daniel@haxx.se-signing.asc                   curl-8.22.0
     0x64e628f8d684696d-pablogsal@gmail.com-signing.asc              python-3.11.2
     0x65c26e471f45b123-kim@netbsd.org-signing.asc                   tcsh-6.24.07
     0x65c26e471f45b123-kim@netbsd.org-signing.asc                   tcsh-6.24.10
@@ -339,5 +341,14 @@ This provides assurance that ...
 * the download was/is intact
 * the content is what the publisher intended
 * your copy has not been tampered with
+
+
+nord@rust:~/opt/libpsl-0.23.3> make verify
+gpg --verify arc/libpsl-0.23.3.tar.lz.sig
+gpg: assuming signed data in 'arc/libpsl-0.23.3.tar.lz'
+gpg: Signature made Fri 14 Aug 2026 01:10:32 PM EDT
+gpg: Good signature from "Tim Rühsen <tim.ruehsen@gmx.de>" [expired]
+gpg: Note: This key has expired!
+Primary key fingerprint: 1CB2 7DBC 9861 4B2D 5841  646D 
 
 
