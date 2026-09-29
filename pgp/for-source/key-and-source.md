@@ -45,6 +45,7 @@ See the bottom for example usage and how to verify code signing.
     0x29ee58b996865171-nmav@gnutls.org-signing.asc                  gnutls-3.5.9
     0x2a1743eda91a35b6-darnir@gnu.org-signing.asc                   wget-1.20.3
     0x2a1743eda91a35b6-darnir@gnu.org-signing.asc                   wget-1.21.3
+    0x2a1743eda91a35b6-darnir@gnu.org-signing.asc                   wget-1.25.0
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-8.6p1
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-8.9p1
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-9.0p1
@@ -332,23 +333,18 @@ which for this version of BASH is `0xbb5869f064ea74ab`.
 In the collection the file is
 [0xbb5869f064ea74ab-chet@cwru.edu-signing.asc](0xbb5869f064ea74ab-chet@cwru.edu-signing.asc)
 
+Download and import that public key ...
+
+    gpg --import 0xbb5869f064ea74ab-chet@cwru.edu-signing.asc
+
 You can then, at any time afterward, verify the archive with ...
 
-   gpg --verify bash-5.3.tar.gz.sig
+    gpg --verify bash-5.3.tar.gz.sig
 
 This provides assurance that ...
 
 * the download was/is intact
 * the content is what the publisher intended
 * your copy has not been tampered with
-
-
-nord@rust:~/opt/libpsl-0.23.3> make verify
-gpg --verify arc/libpsl-0.23.3.tar.lz.sig
-gpg: assuming signed data in 'arc/libpsl-0.23.3.tar.lz'
-gpg: Signature made Fri 14 Aug 2026 01:10:32 PM EDT
-gpg: Good signature from "Tim Rühsen <tim.ruehsen@gmx.de>" [expired]
-gpg: Note: This key has expired!
-Primary key fingerprint: 1CB2 7DBC 9861 4B2D 5841  646D 
 
 
