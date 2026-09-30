@@ -15,9 +15,6 @@ See the bottom for example usage and how to verify code signing.
     0x00ccb587ddbef0e1-staff@irssi.org-signing.asc                  irssi-1.0.2
     0x00ccb587ddbef0e1-staff@irssi.org-signing.asc                  irssi-1.1.1
     0x00ccb587ddbef0e1-staff@irssi.org-signing.asc                  irssi-1.4.5
-    0x04c367c218add4ff                                              python-2.7.15
-    0x04c367c218add4ff                                              python-2.7.17
-    0x04c367c218add4ff                                              python-2.7.18
     0x0664a76954265e8c-simon@yubico.com-signing.asc                 oathtool-2.6.2
     0x08302db6a2670428-tim.ruehsen@gmx.de-signing.asc               libpsl-0.23.3
     0x0adee10094604d37-mthl@gnu.org-signing.asc                     automake-1.16
@@ -80,7 +77,8 @@ See the bottom for example usage and how to verify code signing.
     0x46502ef796917195-mail@bernhard-voelker.de-signing.asc         findutils-4.10.0
     0x4f494a942e4616c2                                              gettext-0.20.1
     0x4f494a942e4616c2                                              libiconv-1.15
-    0x514bbe2eb8e1961f                                              nano-7.2
+    0x514bbe2eb8e1961f-bensberg@telfort.nl-signing.asc              nano-7.2
+    0x514bbe2eb8e1961f-bensberg@telfort.nl-signing.asc              nano-9.2
     0x520a9993a1c052f8                                              nginx-1.15.9
     0x527466a21ca79e6d                                              openssl-3.0.7
     0x528897b826403ada                                              gnupg-2.3.6
@@ -327,19 +325,25 @@ You should also obtain the detached signature file ...
 
 https://ftp.gnu.org/gnu/bash/bash-5.3.tar.gz.sig
 
+The "payload" is the `.tar.gz` file, and that is what is/was signed.
+
 You will also need to download and import (to your GPG keyring)
 the signing key (the public half of that key pair),
 which for this version of BASH is `0xbb5869f064ea74ab`.
 In the collection the file is
 [0xbb5869f064ea74ab-chet@cwru.edu-signing.asc](0xbb5869f064ea74ab-chet@cwru.edu-signing.asc)
 
-Download and import that public key ...
+Download and import that public key. <br/>
+Note: when downloading individual public keys from GitHub,
+be sure to select the "raw" version, not one of the HTML decorated pages.
 
     gpg --import 0xbb5869f064ea74ab-chet@cwru.edu-signing.asc
 
 You can then, at any time afterward, verify the archive with ...
 
     gpg --verify bash-5.3.tar.gz.sig
+
+You not need, in fact *should* not, uncompress the file first.
 
 This provides assurance that ...
 
