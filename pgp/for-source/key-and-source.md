@@ -51,6 +51,7 @@ See the bottom for example usage and how to verify code signing.
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-9.3p2
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-9.6p1
     0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-9.8p1
+    0x2a3f414e736060ba-djm@mindrot.org-signing.asc                  openssh-10.5p1
     0x2c3d4e4c17f231a4-derek@ximbiot.com-signing.asc                cvs-1.11.23
     0x2d347ea6aa65421d-nad@python.org-signing.asc                   python-3.6.8
     0x2d347ea6aa65421d-nad@python.org-signing.asc                   python-3.7.2
